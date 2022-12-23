@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="contenair1">
+        <h2>Repertoire des contacts</h2>
+    </div>
+    <div class="contenair">
+        <div class="element1">
+            <div class="child">
+                <p><strong>Formulaire de contacts</strong></p>
+            </div>
+
+            <!--Start form-->
+            <form action="#"   method="#" name="creation" id="creation">
+                <label for="prenom">Prenom</label><br><br>
+                <input type="text" id="prenom"><br><br>
+
+                <label for="Nom">Nom</label><br><br>
+                <input type="text" id="nom"><br><br>
+
+                <label for="groupe">Groupe</label><br><br>
+                <input type="text" id="groupe"><br><br>
+
+                <label for="email">Email</label><br><br>
+                <input type="email" id="email"><br><br>
+
+                <label for="bio">Bio</label><br><br>
+                <textarea name="bio" id="bio" cols="58" rows="10"></textarea>
+
+                <div class="drag-area">
+                    <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                    <header>Deposer la photo ici</header>
+                    <input type="file" hidden>
+                  </div>
+            <div class="btn">
+                <input  class="btn-creer" type="submit" value="crée" >
+                <input  class="btn-reint" type="submit" value="Réint">
+             </div> 
+        </div>
+            </form><br>
+        <!--End form--> 
+
+        <!--Partie contacts-->
+        <div class="element">
+            <div class="child">
+                <p><strong>Liste de contacts</strong> </p>
+            </div>
+
+            <div class="contacts">
+                <div class="avatar"></div>
+                <div class="details-contacts" id="details-contacts">
+                    <p><strong><span id="contact_prenom"></span> </strong></p>
+                    <p><strong><span id="contact_nom"></span>   </strong></p>
+                    <p><strong><span id="contact_groupe"></span></strong></p>
+                    <p><strong><span id="contact_email"></span></strong></p>
+                    <p> <span id="contact_bio"></span> </p></div>
+                    
+            </div>
+
+            <div class="contacts">
+                <div class="avatar"></div>
+                <div class="details-contacts">
+                    <p><strong>Prénom :</strong></p>
+                    <p><strong>Nom:</strong></p>
+                    <p><strong>Groupe:</strong></p>
+                    <p><strong>Email:</strong></p>
+                    <p></p></div>
+            </div>
+
+            <div class="contacts">
+                <div class="avatar"></div>
+                <div class="details-contacts">
+                    <p><strong>Prénom :</strong></p>
+                    <p><strong>Nom:</strong></p>
+                    <p><strong>Groupe:</strong></p>
+                    <p><strong>Email:</strong></p>
+                    <p></p></div>
+            </div>
+
+            <div class="contacts">
+                <div class="avatar"></div>
+                <div class="details-contacts">
+                    <p><strong>Nom</strong></p>
+                    <p><strong>groupe</strong></p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque,</p></div>
+                
+            </div>
+
+        </div>
+    </div>
+    <!--End Contacts-->
+  <script src="script.js"></script>
+
+ <!--
+This script places a badge on your repl's full-browser view back to your repl's cover page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green, teal, blue, blurple, magenta, pink!
+-->
+<script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>

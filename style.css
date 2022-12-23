@@ -1,0 +1,163 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body{
+    margin:0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenair1{
+    background-color: blue;
+    width: 100%;
+    height: 50px;
+    margin-top:-20px;
+}
+h2{
+    color: white;
+    position: relative;
+    margin-left: 30px;
+    top:5px;
+}
+.contenair{
+    display: flex;
+    margin-left: 40px;
+    justify-content:space-around;
+    margin-top: 10px;
+    width: 95%;
+    height: 1000px;
+}
+.element1, .element{
+    width: 55%;
+    height: 900px;
+    background-color: aliceblue;
+}
+.element1{
+    width: 40%;
+}
+.child{
+    margin-top: -15px;
+    height: 50px;
+    background-color: blue;
+    text-align: center;
+    color: white; 
+}
+.child p{
+    padding-top: 15px;
+    font-size: bold;
+}
+form{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+input{
+    width: 96%;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+label{
+    color: rgb(4, 134, 173);
+}
+textarea{
+    border: 1px solid white;
+}
+/* ------Parties liste de contact----*/
+.contacts{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.avatar{
+    margin-top: 10px;
+    margin-left: 15px;
+    width:90px;
+    height: 80px;
+    border-radius: 100%;
+}
+.details-contacts{
+    width: 600px;
+    margin-left: 50px;
+    display: none;
+}
+.details-contacts p{
+    line-height: 2px;
+}
+.drop-image{
+    width: 97%;
+   
+    border: 2px dashed rgb(12, 12, 12);
+}
+.drop-image p{
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 65px;
+}
+/* -------- Gestion des bouttons------------*/
+.btn{
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.btn-creer{
+    background-color: rgb(5, 125, 194);
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+}
+.btn-reint{
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+}
+.drag-area{
+    border: 2px dashed rgb(0, 0, 0);
+    height: 150px;
+    width: 97%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .drag-area.active{
+    border: 2px solid #fff;
+  }
+  .drag-area .icon{
+    font-size: 100px;
+    color: #fff;
+  }
+  .drag-area header{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+  }
+  .drag-area span{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin: 10px 0 15px 0;
+  }
+  .drag-area button{
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: #fff;
+    color: #5256ad;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .drag-area img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
